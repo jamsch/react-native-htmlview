@@ -108,7 +108,6 @@ class HtmlView extends PureComponent {
 
   render() {
     const { RootComponent, style } = this.props;
-    console.log(RootComponent, typeof RootComponent);
     const { element } = this.state;
     if (element) {
       return (
