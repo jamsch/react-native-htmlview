@@ -132,7 +132,7 @@ HtmlView.propTypes = {
   onLinkLongPress: PropTypes.func,
   paragraphBreak: PropTypes.string,
   renderNode: PropTypes.func,
-  RootComponent: PropTypes.oneOfType([PropTypes.object, PropTypes.node, Proptypes.func]),
+  RootComponent: PropTypes.oneOfType([PropTypes.object, PropTypes.node, PropTypes.func]),
   rootComponentProps: PropTypes.object,
   style: ViewPropTypes.style,
   stylesheet: PropTypes.object,
